@@ -53,6 +53,8 @@ $THEME->parents = ['boost'];
 // does not support a dock so we won't either - but look at bootstrapbase for an example of a theme with a dock.
 $THEME->enable_dock = false;
 
+$THEME->haseditswitch = true;
+
 // This is an old setting used to load specific CSS for some YUI JS. We don't need it in Boost based themes because Boost
 // provides default styling for the YUI modules that we use. It is not recommended to use this setting anymore.
 $THEME->yuicssmodules = array();
