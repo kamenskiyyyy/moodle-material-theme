@@ -10,3 +10,8 @@ $teal: #20c997 !default;
 $cyan: #39C0ED !default;
 
 $primary: $blue !default;
+
+// Variable overrides first
+//$primary: #900;
+$enable-shadows: true;
+
